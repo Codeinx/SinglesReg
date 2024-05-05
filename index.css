@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body {
+    width: 100%;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+html {
+    scroll-behavior: smooth;
+}
+
+/* Contact Me */
+.connectWithMe {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 120px 180px 120px;
+}
+.connectWithMeCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+}
+.connectWithMeTop {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.connectText {
+    width: fit-content;
+    height: auto;  
+}
+.connectText h2 {
+    font-size: 2rem;
+    color: #841529;
+}
+.connectDesc {
+    width: 60%;
+    height: auto;
+}
+.connectDesc p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000000a8;
+}
+.connectWithMeBottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.otherConnect {
+    width: 50%;
+    height: auto;
+}
+.form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: start; */
+    row-gap: 3rem ;
+}
+.formContent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+.nameCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: start;
+    align-items: start;
+}
+.nameInput {
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    /* border: 1px solid #605f5f; */
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+}
+.nameInput:hover {
+    border: 2px solid #841529;
+}
+.nameInput:focus {
+    border: 2px solid #841529;
+}
+.emailCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: start;
+    align-items: start;
+}
+.emailInput {
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    /* border: 1px solid #605f5f; */
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+}
+.emailInput:hover {
+    border: 2px solid #841529;
+}
+.emailInput:focus {
+    border: 2px solid #841529;
+}
+.textAreaCon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: start;
+    align-items: start;
+}
+.textInput {
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    /* border: 1px solid #605f5f; */
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+.textInput:hover {
+    border: 2px solid #841529;
+}
+.textInput:focus {
+    border: 2px solid #841529;
+}
+.send {
+    /* width: 300px; */
+    background: none;
+    border:  none;
+    padding: 1rem 1rem;
+    border: 2px solid #841529;
+    border-radius: 0.5rem;
+    color: #841529;
+    font-size: 1rem;
+    font-weight: 700;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.send:hover {
+    background: #841529;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+/* .anotherConnect {
+    width: 40%;
+    height: 70vh;
+    background-image: url("/odunski.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+/* End of Contact Me */
+
+
+@media (max-width: 480px) {
+    .connectWithMe {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 16px;
+    }
+
+    .connectWithMeCon {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 3rem 1rem;
+    }
+
+    .connectText {
+        width: fit-content;
+        height: auto;
+    }
+
+    .connectText h2 {
+        font-size: 1.5rem;
+        color: #841529;
+    }
+
+    .connectDesc {
+        width: 100%;
+        height: auto;
+    }
+
+    .connectDesc p {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .connectWithMeBottom {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .anotherConnect {
+        display: none;
+    }
+
+    .form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1rem;
+    }
+
+    .formContent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1.5rem;
+    }
+
+    .nameCon {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+        justify-content: start;
+        align-items: start;
+    }
+    
+    .nameInput {
+        width:100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        border: 1px solid #605f5f;
+        padding-left: 1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .emailCon {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .emailInput {
+        width:100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        border: 1px solid #605f5f;
+        padding-left: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .textAreaCon {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .textInput {
+        width:100%;
+        max-width: 100%;
+        height: auto;
+        resize: none;
+        border: none;
+        outline: none;
+        border: 1px solid #605f5f;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .send {
+        width: 200px;
+        background: none;
+        border: none;
+        padding: 1rem 1rem;
+        border: 2px solid #841529;
+        border-radius: 0.5rem;
+        color: #841529;
+        font-size: 1rem;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-delay: 0.1s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .otherConnect {
+        width: 100%;
+        height: auto;
+    }
+
+}
